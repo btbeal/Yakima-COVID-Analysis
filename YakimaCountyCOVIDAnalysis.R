@@ -9,9 +9,6 @@
 # --------------------------------- # # --------------------------------- #
 
 # ---- Clearing Environment, Setting Dir, Reading Data
-rm(list = ls())
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
 library(tidyverse)
 library(ggthemes)
 library(cowplot)
